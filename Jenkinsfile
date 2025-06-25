@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git url: 'https://github.com/chavanakash/location-tracker.git'
+                git url: 'https://github.com/chavanakash/location_tracker.git'
             }
         }
 
