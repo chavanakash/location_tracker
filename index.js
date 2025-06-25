@@ -66,7 +66,7 @@ app.get('/', (req, res) => {
     res.render('index');
 });
 
-server.listen(5000, () => {
-    console.log(`Server is listening on port: 5000 & server started`);
+server.listen(5001, '0.0.0.0', () => {
+    console.log(`Server is listening on port: 5001 & server started`);
 });
 
